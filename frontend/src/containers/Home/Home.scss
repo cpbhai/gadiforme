@@ -1,0 +1,132 @@
+.kl{
+  // background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  // background: linear-gradient(to top, #373b44, #4286f4);
+  background: linear-gradient(to top, #000428, #004e92);
+  z-index: 10;
+  padding: 60px 20px;
+  margin: auto;
+  position: relative;
+
+}
+.home{
+  background: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+  .csw_inner{
+    width: 100%;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+.csw_inputBox{
+  height: 95px;
+    border-radius: 0;
+    margin-right: 0;
+    transition: all 0.2s linear;
+    background: rgba(255, 255, 255, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+ label {
+      padding: 10px 20px;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+  }
+    
+}
+ .searchCity{
+  width:250px;
+  margin-right: 10px ;
+  border: solid 1px #e7e7e7;
+}
+.journey{
+  border-radius: 0;
+  margin-right: 0;
+  transition: all 0.2s linear;
+  background: rgba(255, 255, 255, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width:250px;
+}
+
+.csw_inputBox .lineHeight36 {
+  line-height: 36px;
+}
+.csw_inputField {
+  border: 1px;
+  outline: 0;
+  background: none;
+  min-width: 140px;
+  cursor: pointer;
+}
+.csw_inputBox input {
+  font-family: "Lato", sans-serif;
+}
+.latoBlack {
+  font-weight: 900;
+}
+
+.font30 {
+  font-size: 30px;
+  line-height: 30px;
+}
+.lbl_input {
+  text-transform: uppercase;
+}
+
+.latoBold {
+  font-weight: 700;
+}
+.appendBottom5 {
+  margin-bottom: 5px;
+}
+.buttonContainer {
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    #8fdcfa 0%,
+    #619ff0 50%,
+    #6c9feb 50%,
+    #3339e9 100%
+  );
+  position: absolute;
+  bottom: 14.5%;
+  left: 45%;
+  padding: 0.1% 45px;
+  border-radius: 40px;
+  color: white;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+//   .image1{
+//       background-image: url("../../assets/images/CityDriver.png");
+//   }
+// }
+
+

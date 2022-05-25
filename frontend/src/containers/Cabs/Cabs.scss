@@ -1,0 +1,185 @@
+.cabs{
+    display: flex;
+    flex-direction: column;
+}
+.totalCabs{
+    background-color: skyblue;
+    padding: 10px;
+    color: white;
+}
+
+.mainCabs{
+    display: flex;
+}
+.blackText {
+    color: #000000;
+}
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+    width: 1200px;
+}
+.individualCab {
+    background-color: #fff;
+    border: 1px solid #bababa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgb(138 107 118 / 8%);
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    min-height: 180px;
+    position: relative;
+}
+.makeFlex{
+    display: flex;
+    
+}
+.makeFlex.column{
+    flex-direction: column;
+
+}
+.makeFlex.spaceBetween{
+    justify-content: space-between;
+}
+.makeFlex.hrtlCenter{
+    align-items: center;
+}
+.cabDetails{
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 25px;
+    padding: 20px 0;
+}
+.paddingTB15 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.alignEnd{
+align-items: flex-end;
+}
+.appendRight5 {
+    margin-right: 5px;
+}
+.latoBlack {
+    font-weight: 900;
+}
+.font20 {
+    font-size: 20px;
+    line-height: 20px;
+}
+.cabUtilities {
+    flex-wrap: wrap;
+}
+.latoRegular {
+    font-weight: 400;
+}
+.font14 {
+    font-size: 14px;
+    line-height: 14px;
+}
+.appendTop10 {
+    margin-top: 10px !important;
+}
+.appendTop20 {
+    margin-top: 20px;
+}
+.appendBottom10 {
+    margin-bottom: 10px;
+}
+.latoBold {
+    font-weight: 700;
+}
+.appendTop5 {
+    margin-top: 5px;
+}
+.cabImage {
+    height: 60px;
+    margin: 30px;
+    width: 120px;
+}
+.makeRelative{
+    position: relative;
+}
+.vehicleImg{
+    left: 0;
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+}
+.width100percent {
+ margin-top: 10px;
+}
+.appendRight10{
+    margin-right:10px ;
+}
+a{
+    text-decoration: none;
+}
+.flexGrow1 {
+    flex-grow: 1;
+}
+.persuasion .iconContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-width: 20px;
+}
+.circleBulletBlack {
+    background-color: #000;
+    border-radius: 50%;
+    height: 5px;
+    min-width: 5px;
+    width: 5px;
+}
+.appendLeft2 {
+    margin-left: 2px;
+}
+
+.latoRegular {
+    font-weight: 400;
+}
+.cabBookDetails{
+    border-radius: 0 4px 4px 0;
+    flex-shrink: 0;
+    position: relative;
+    width: 215px;
+}
+.justifyCenter {
+    justify-content: center;
+}
+.makeFlex {
+    display: flex;
+}
+.priceDetailsPadding {
+    padding: 20px 20px 10px 10px;
+}
+.rowReverse {
+    flex-direction: row-reverse;
+}
+.appendBottom5{
+    margin-bottom: 5px;
+}
+.latoBlack {
+    font-weight: 900;
+}
+.font28 {
+    font-size: 28px;
+    line-height: 28px;
+}
+.bookNowButton {
+    background-image: linear-gradient(96deg,#53b2fe 1%,#065af3 129%);
+    border-radius: 18px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 20%);
+    padding: 10px 30px;
+}
+.whiteText {
+    color: #ffffff;
+}
+.font12 {
+    font-size: 12px;
+    line-height: 12px;
+}
+.alignCenter{
+    align-items:center ;
+}
