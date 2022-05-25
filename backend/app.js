@@ -30,7 +30,6 @@ app.use("/test", (req, res) => {
   res.status(200).json({ success: true, message: "Backend is working fine." });
 });
 
-/*Frontend hai*/
 app.use(express.static(path.join(__dirname, "../frontend/build")));
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
