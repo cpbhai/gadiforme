@@ -13,6 +13,7 @@ exports.showAvailableCars = async (req, res) => {
     const output = await Vehicle.aggregate(
       showAvailableCarsQuery(pickup, date, journey, distance)
     );
+    console.log(output);
     res.status(200).json({ success: true, data: output });
   } catch (error) {
     errorResponse(res, error);

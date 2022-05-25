@@ -24,18 +24,22 @@ import { fetchCars } from "./slice";
 const Home = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const [dropoff, setDropoff] = useState("Mathura");
-  const [pickup, setPickup] = useState("Noida");
+  const [dropoff, setDropoff] = useState("Noida");
+  const [pickup, setPickup] = useState("Mathura");
   const [journey, setJourney] = useState("");
   const [date, setDate] = useState(null);
 
-  const [distance, setDistance] = useState("60km");
+  const [distance, setDistance] = useState("60");
   const handleChange = (event) => {
     setJourney(event.target.value);
   };
   const handleSubmit = () => {
     var strDateTime =
-      date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+      date.getFullYear() +
+      "-" +
+      (date.getMonth() + 1).toString().padStart(2, "0") +
+      "-" +
+      date.getDate();
 
     const searchData = {
       dropoff,
@@ -71,8 +75,8 @@ const Home = () => {
                 type="text"
                 className="csw_inputField font30 lineHeight36 latoBlack"
                 data-cy="fromCity"
-                value={dropoff}
-                onChange={(e) => setDropoff(e.target.value)}
+                value={pickup}
+                onChange={(e) => setPickup(e.target.value)}
               />
             </label>
           </div>
@@ -84,8 +88,8 @@ const Home = () => {
                 type="text"
                 className="csw_inputField font30 lineHeight36 latoBlack"
                 data-cy="fromCity"
-                value={pickup}
-                onChange={(e) => setPickup(e.target.value)}
+                value={dropoff}
+                onChange={(e) => setDropoff(e.target.value)}
               />
             </label>
           </div>

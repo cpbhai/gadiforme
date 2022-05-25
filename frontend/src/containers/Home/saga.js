@@ -10,7 +10,7 @@ export function* fetchCarsSaga(action) {
   const {
     payload: { query },
   } = action;
-  let uri = `https://gadiforme-api.herokuapp.com/api/v1//general/available-cars`;
+  let uri = `https://www.gadiforme.com/api/v1/general/available-cars`;
   if (query) {
     uri += `?${query}`;
   }
