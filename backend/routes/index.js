@@ -24,4 +24,8 @@ router.use("/partner", Partner);
 const General = require("./general");
 router.use("/general", General);
 
+// @Trip
+const Trip = require("./trip");
+router.use("/trip", Trip);
+
 module.exports = router;
